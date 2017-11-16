@@ -175,6 +175,5 @@ func main() {
 	}
 
 	disabled(UrlHome, (workers-1)*temp, lenSecond)
-
 	fmt.Printf("Duration: %s\n", time.Since(start))
 }
